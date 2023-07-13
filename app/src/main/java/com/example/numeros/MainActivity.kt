@@ -45,7 +45,7 @@ class Person(val name: String, val age: Int, val hobby: String?, val referrer: P
         if (referrer==null){
             println("Doesn't have a referrer")
         } else {
-            println("Has a referrer named ${referrer.name}")
+            println("Has a referrer named ${referrer.name}, who likes to play ${referrer.hobby}")
         }
 
     }
